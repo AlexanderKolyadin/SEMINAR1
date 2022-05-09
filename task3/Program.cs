@@ -1,8 +1,12 @@
-﻿Console.Write("Введите целое число =>");
-int n = int.Parse(Console.ReadLine());
-for(int i = -n; i <= n; i++)
+﻿int i;
+Console.Write("введите число: ");
+i = Console.Read();
+if (i % 2 == 1)
 {
-    Console.WriteLine(i);
+    Console.WriteLine("не четное");
 }
-
+else
+{
+    Console.WriteLine("четное");
+}
 
